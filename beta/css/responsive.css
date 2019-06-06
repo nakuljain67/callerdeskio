@@ -1,0 +1,149 @@
+/* ==================================================================
+
+*   MaterialX Media Queries
+
+TOC : 
+
+1. screenwidth greater than 1024px (Medium Screen/Large Tablets)
+2. screenwidth less than 1024px (Medium Screen/Large Tablets)
+3. screenwidth less than 960px (Mobile wide/Smaller Tablets)
+4. screenwidth less than 768px (Mobile wide/Smaller Tablets)
+5. screenwidth greater than 480px (Medium Screen Mobile)
+
+
+/* ================================================================== */
+
+
+
+/* Screens Resolution : 1024px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1365px) {
+   
+}
+
+
+/* Screens Resolution For header : 1100px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1100px) {
+    .primary-nav .brand-logo{text-align:center;width:100%;margin-top:0;}
+
+     nav ul li{float:none;display:inline-block;}
+    .top-nav {float: none !important;text-align: center;}
+
+    .side-nav{text-align:center;float:none;}
+
+    .side-nav li{padding-bottom:0px;margin-left: 10px;}
+    .side-nav li>a{height: auto;font-size: 12px;}
+    /*.side-nav li>a>img{display:none;}*/
+    .side-nav .login{margin:0;margin-bottom:10px;}
+    .side-nav li > ul{margin:0;}
+}
+
+/* Screens Resolution : 1024px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+    
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .footer .connect,.footer .contact_social{text-align:center;}
+    .footer .connect ul li{margin:0;}
+    .footer .connect ul li{font-size:16px;line-height:30px;vertical-align: top;text-align: left;}
+    .footer .connect ul li i {
+         font-size: 24px;
+         width: 30px;
+         height: 30px;
+         line-height: 30px;
+    }
+    .footer .hide-991{display:none;}
+}
+
+@media only screen and (max-width: 767px) {
+
+    
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    
+
+}
+
+@media only screen and (max-width: 359px) {
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Screens Resolution : 1024px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1365px) {
+    
+}
+
+
+/* Screens Resolution : 1024px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+     .home-banner{background-size:100% auto;-webkit-animation-name: none;}
+}
+
+@media only screen and (max-width: 992px) {
+
+    
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+     .pmenu{display:none;}
+     .home-banner{background-image:none;}    
+     .clouds1{display:none;}    
+     .sa-header-1 .header-contant{text-align:center;}
+     .sa-header-1 .left{margin-top:0;}
+     .sa-header-1 .left .how-to-buy-arrow{display:none;}
+     .sa-header-1 .left .image-area{float:none;display:block;margin:0 auto;}
+     .sa-header-1 .left .sub-title{float:none;margin: 10px 0;}
+     .sa-header-1 .right-body .img-absolute-3{display:none;}
+     .sa-header-1 .right-body .img-absolute-1{left:5px;}
+     .sa-header-1 .right-body .img-absolute-2{right:5px;}
+     .home-how-to-buy .how-to-buy-steps img{max-width:100%;}
+}
+
+@media only screen and (max-width: 479px) {
+
+    
+}
+
+@media only screen and (max-width: 359px) {
+
+  
+}
